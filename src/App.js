@@ -1,6 +1,7 @@
 import './App.css';
 import Counter from './components/Counter';
 import FakeCounter from './components/FakeCounter';
+import ListOfThings from './components/ListOfThings';
 
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
      <FakeCounter />
 
      <Counter />
+
+     <ListOfThings />
 
     </div>
   );
